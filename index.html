@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Web Design</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <script src ="./script.js"></script>
 </head>
 <body>
     <header>
-        
+        <div>Logo</div>
         <div>Portfolio Website</div>
         <nav>
-            <ul>
+            <ul id="menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#" class="button">Contact Me</a></li>
             </ul>
+            <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http:/www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+                    </svg>
+            </a>
         </nav>
     </header>
     <main>
-        <section class="containr hero"
+        <section class="container hero"
         <div class="tagline">
             <h1>Hi, I'm Hieu Tran!</h1>
             <p>Im a software engineer designs, develops, and maintains software applications and systems. They use programming languages, algorithms, and software design principles to create efficient and functional solutions. Responsibilities include analyzing requirements, writing code, testing software, and ensuring security and performance. Strong problem-solving skills and staying updated with industry trends are crucial. Software engineers play a key role in advancing technology and improving user experiences across various sectors.</p>
