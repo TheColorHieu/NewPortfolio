@@ -14,7 +14,7 @@
 <body>
     <header>
         <div>Logo</div>
-        <div>Portfolio Website</div>
+        <div class="logo-text">Portfolio Website</div>
         <nav>
             <ul id="menu">
                 <li><a href="#">Home</a></li>
@@ -47,9 +47,11 @@
             </div>
 
                 <div class="hero-yellow">
-                    <img src="./imgs/profile.png" alt="Hieu Tran" width="50%"/>
+                    <img src="./imgs/profile.png" alt="Hieu Tran" width="100%"/>
                 </div>
+                
         </section>
+
         <section class="logos container">
             <div class="marquee">
                 <div class="track">
@@ -77,18 +79,11 @@
         </section>
            
         </section>
-        <section class="container skills">
-            <marquee behavior = "scroll" direction = "left" scrollamount = "10">
-                <div>React</div>
-                <div>Angular</div>
-                <div>Node.js</div>
-                <div>Express</div>
-                <div>Python</div>
-                </marquee>
-        </section>
+       
         <section class="container skills">
             <h2>Skills</h2>
             <div class="holder-blue">
+                <div class="left-column">
                 <h3>Frontend</h3>
                 <ul>
                     <li>HTML</li>
@@ -96,6 +91,9 @@
                     <li>JavaScript</li>
                     <li>React</li>
                     <li>Angular</li>
+                    <li>API</li>
+                    <li>Figma</li>
+                    <li>webflow</li>
                 </ul>
                 <h3>Backend</h3>
                 <ul>
@@ -104,23 +102,24 @@
                     <li>Python</li>
                     <li>Java</li>
                     <li>SQL</li>
+                    <li>NoSQL</li>
+                    <li>RESTful APIs</li>
+                    <li>GraphQL</li>
+            
                 </ul>
+                </div>
+                <div class="right-column">
                 <h3>A bit about me</h3>
                 <p>
                     I am a software engineer who recently just graduated from ASU! Currently looking for a place where I can grow and hone my skills as a developer.
                 </p>
             </div>
         </section>
-        <section class="container work-experience">
-            <div class="tagline">Recent</div>
-            <h2>Work Experience</h2>
-            <article>
-                <figure>
-                    <img src="#" alt="Trulli" style="width:100%">
-                    <figcaption>Workplace 1,</ficaption>
-                </figure>
-            </article>
-        </section>
+       <section id="Projects" class="bento container">
+        <h2>
+            Browse my projects
+        </h2>
+       </section>
         </main>
     
 </body>
