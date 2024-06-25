@@ -13,14 +13,14 @@
 </head>
 <body>
     <header>
-        <div>Logo</div>
+        
         <div class="logo-text">Portfolio Website</div>
         <nav>
             <ul id="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#container skills" onClick="toggleMenu()">Skills</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#" class="button">Contact Me</a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" class="button">Contact Me</a></li>
             </ul>
             <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http:/www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -30,18 +30,18 @@
         </nav>
     </header>
     <main>
-        <section class="hero container">
+        <section id="Home" class="hero container">
             <div class="hero-blue">
                 <div>
                 <h1><small>Hi, I'm Hieu Tran!<small></h1>
                     <p>Im a software engineer designs, develops, and maintains software applications and systems. They use programming languages, algorithms, and software design principles to create efficient and functional solutions. Responsibilities include analyzing requirements, writing code, testing software, and ensuring security and performance. Strong problem-solving skills and staying updated with industry trends are crucial. Software engineers play a key role in advancing technology and improving user experiences across various sectors.</p>
                     <div class="call-to-action">
-                    <a href="#" class="button">View Resume</a>
-                    <a href="#" class="button">Contact Me</a>
+                    <a href="./imgs/updated.pdf" class="button">View Resume</a>
+                    <a href="#contact" class="button">Contact Me</a>
                     </div>
                     <div class="social-links">
-                        <a href="#"><img src="./imgs/linkedin.png" alt="LinkedIn"/></a>
-                        <a href="#"><img src="./imgs/github.png" alt="GitHub"/></a>
+                        <a href="https://www.linkedin.com/in/hieu-tran-609240167?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B8VNHa3hITLWCKnH7EpYWqA%3D%3D"><img src="./imgs/linkedin.png" alt="LinkedIn"/></a>
+                        <a href="https://github.com/TheColorHieu"><img src="./imgs/github.png" alt="GitHub"/></a>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,6 @@
                     <img src="./imgs/html.png" alt="HTML" width="128" />
 					<img src="./imgs/css.png" alt="CSS" width="128" />
 					<img src="./imgs/javascript.png" alt="JS" width="128" />
-					<img src="./imgs/sass.png" width="128" alt="Sass" />
 					<img src="./imgs/react.png" width="128" alt="React" />
 					<img src="./imgs/nextjs.png" width="128" alt="Next JS" />
 					<img src="./imgs/azure.png" width="128" alt="Azure" />
@@ -80,7 +79,7 @@
            
         </section>
        
-        <section class="container skills">
+        <section id="skills" class="container skills">
             <h2>Skills</h2>
             <div class="holder-blue">
                 <div class="left-column">
@@ -120,6 +119,11 @@
             Browse my projects
         </h2>
        </section>
+
+       <section id="contact" class="container contact">
+        <h2>Contact Me</h2>
+        <p>You can also reach out to me via email at: <a href="hieuthanhtran98@yahoo.com">Hieuthanhtran98@yahoo.com</a></p>
+    </section>
         </main>
     
 </body>
