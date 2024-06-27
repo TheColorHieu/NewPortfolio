@@ -215,9 +215,25 @@ header {
             padding:0px 30px;
             display:flex;
             justify-content:flex-end;
-            align-items:center;
-           
+            align-items:center;  
         }
+        .photo{
+            width:400px;
+            height: 400px;
+            display:flex;
+            border-radius:30px;
+            padding:0px 30px;
+            justify-content:center;
+            align-items:center;  
+        } 
+        .photo img{
+            width:100%;
+            height:auto;
+            border-radius: 30px;
+            justify-content: center;
+            align-self: center;
+        }
+        
     }
     .logos {
         background-color: var(--base-100);
